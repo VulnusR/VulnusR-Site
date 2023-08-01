@@ -60,14 +60,11 @@ h1 {
   margin: 0;
 }
 
-
-
 /* Landing Page */
 
 .body-full-content {
   height:100%;
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,23 +100,6 @@ h1 {
   position: relative; /* Ensure this container is the reference for absolute positioning */
 }
 
-.upper-border-text {
-  position: absolute;
-  top: 2.5%;
-  left: 8.5%;
-  transform: translate(-50%, -50%);
-  z-index: 1; /* Set the z-index to place the button above the landing content */
-}
-
-.lower-border-text {
-  position: absolute;
-  top: 97.5%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  width: max-content;
-  z-index: 1; /* Set the z-index to place the button above the landing content */
-}
-
 #landing-content-parent {
   height: 90%;
   width: 95%;
@@ -134,17 +114,14 @@ h1 {
 .landing-bisection {
   height: 100%;
   width: 50%;
-
   flex: 1;
 }
 
 .landing-content {
   height: 100%;
   width: 100%;
-
   background-color: rgba(0, 0, 0, 0.029);
 }
-
 
 #landing-content-parent-left {
   background-color: rgb(255, 255, 255);
@@ -154,14 +131,12 @@ h1 {
   background-color: rgb(0, 0, 0);
 }
 
-#landing-upper-parent-left {
+.landing-img-section-parent {
   height: 75%;
   width: 100%;
-
-  
 }
 
-#landing-upper-left {
+.landing-img-section {
   height: 100%;
   width: 75%;
 
@@ -204,26 +179,6 @@ h1 {
 
 }
 
-#landing-lower-parent-right {
-  height: 75%;
-  width: 100%;
-
-  
-
-}
-
-#landing-lower-right {
-  height: 100%;
-  width: 75%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative; /* Ensure this container is the reference for absolute positioning */
-
-}
-
 #landing-lower-right-design {
   height: 75%;
   width: 50%;
@@ -253,8 +208,5 @@ h1 {
   transform: translate(-50%, -50%);
 
   border: rgb(255, 255, 255) 2px solid;
-
-
-
 }
 

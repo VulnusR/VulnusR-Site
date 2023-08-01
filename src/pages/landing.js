@@ -8,21 +8,12 @@ const LandingPage = () => {
     <div className="body-full-content">
       <div className='landing-main-parent'>
         <div id='landing-content-main-parent'>
-        <div className="upper-border-text">
-            <h1>Caleb S. Lockwood</h1>
-          </div>
-
-
           <div id="landing-content-parent">
-
-          
-
-            
             <div id="landing-content-parent-left" className='landing-bisection'>
              
               <div id='landing-main-content-parent-left' className='landing-content'>
-                <div id='landing-upper-parent-left'>
-                  <div id='landing-upper-left'>
+                <div id='landing-upper-parent-left' className='landing-img-section-parent'>
+                  <div id='landing-upper-left' className='landing-img-section'>
                     <div id='landing-upper-left-design'></div>
                     <div id='landing-upper-left-img'></div>
                   </div>
@@ -42,8 +33,8 @@ const LandingPage = () => {
                   
 
                 </div>
-                <div id='landing-lower-parent-right'>
-                  <div id='landing-lower-right'>
+                <div id='landing-lower-parent-right' className='landing-img-section-parent'>
+                  <div id='landing-lower-right' className='landing-img-section' >
                     <div id='landing-lower-right-design'></div>
                     <div id='landing-lower-right-img'></div>
                   </div>
@@ -59,9 +50,7 @@ const LandingPage = () => {
 
           
 
-          <div className="lower-border-text">
-            <h1>Inspired Web Design</h1>
-          </div>
+          
 
 
           
