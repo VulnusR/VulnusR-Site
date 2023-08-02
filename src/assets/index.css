@@ -17,8 +17,9 @@ h1 {
   font-family: Times, 'Times New Roman', serif;
   font-weight: 800;
   font-size: xx-large;
+  
 
-  color: crimson;
+  color: rgb(255, 166, 0);
 }
 
 #content-full {
@@ -132,7 +133,7 @@ h1 {
 }
 
 .landing-img-section-parent {
-  height: 75%;
+  height: 90%;
   width: 100%;
 }
 
@@ -155,7 +156,7 @@ h1 {
 
   position: absolute;
   top: 47%;
-  left: 35%;
+  left: 55%;
   transform: translate(-50%, -50%);
 
 }
@@ -164,19 +165,16 @@ h1 {
   height: 75%;
   width: 50%;
 
-
   background-image: url('../assets/images/Acropolis.jpg');
   background-size: cover;
   background-position: center;
 
   position: absolute;
   top: 55%;
-  left: 45%;
+  left: 65%;
   transform: translate(-50%, -50%);
 
   border: rgb(0, 0, 0) 2px solid;
-
-
 }
 
 #landing-lower-right-design {
@@ -186,27 +184,52 @@ h1 {
   background-color: rgb(255, 255, 255);
 
   position: absolute;
-  top: 87%;
-  left: 98%;
+  top: 51%;
+  left: 75%;
   transform: translate(-50%, -50%);
-
-
 }
 
 #landing-lower-right-img {
   height: 75%;
   width: 50%;
 
-
   background-image: url('../assets/images/Apriori.jpeg');
   background-size: cover;
   background-position: center;
 
   position: absolute;
-  top: 80%;
-  left: 90%;
+  top: 45%;
+  left: 65%;
   transform: translate(-50%, -50%);
 
   border: rgb(255, 255, 255) 2px solid;
+}
+
+.landing-title-text-section {
+  text-align: center;
+}
+
+.white-text {
+  color:white;
+}
+
+.black-text {
+  color:black;
+}
+
+.landing-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
+
+  
+}
+
+#landing-text-left {
+  letter-spacing: 2.5px;
+}
+
+#landing-text-right {
+  letter-spacing: 5.5px;
 }
 
